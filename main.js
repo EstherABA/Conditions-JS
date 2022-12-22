@@ -221,3 +221,33 @@ function Status (crewStatus, computerStatusCode, shuttleSpeed) {
 Status(true,400,17600)
 Status(false,300,17400)
 Status(false,200,400)
+
+//15
+
+function string (color) {
+
+    switch (color) {
+        case "red":
+            console.log("Red is the color of danger")
+        break;
+        case "orange":
+            console.log("Red is the color of danger")
+        break;
+        case "yellow":
+            console.log("Yellow is the color of sunshine")
+        break;
+        case  "green":
+            console.log("Green is the color of nature")
+        break;
+        case "blue":
+            console.log("Blue is the color of the sky")
+        break;
+        case "purple":
+            console.log("Purple is the color of royalty")
+            break;
+            
+            default:
+            console.log("Invalid color")
+        break;
+}
+}
